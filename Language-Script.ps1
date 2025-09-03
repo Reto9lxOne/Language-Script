@@ -5,7 +5,7 @@
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
 
 #variables
-$regionalsettingsURL = "https://raw.githubusercontent.com/RimRexWorld/Language-Script/main/ch-Region.xml"
+$regionalsettingsURL = "https://raw.githubusercontent.com/Reto9lxOne/Language-Script/refs/heads/main/ch-Region.xml"
 $RegionalSettings = "C:\CH-Region.xml"
 
 
@@ -30,3 +30,4 @@ Set-TimeZone -Id "W. Europe Standard Time"
 # restart virtual machine to apply regional settings to current user. You could also do a logoff and login.
 Start-sleep -Seconds 40
 Restart-Computer
+
